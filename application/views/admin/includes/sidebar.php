@@ -20,6 +20,12 @@
       <span>Fetch Server Data</span></a>
   </li>
 
+  <li class="nav-item ">
+    <a class="nav-link" href="<?php echo site_url('admin/Daily_ont_report'); ?>">
+      <i class="fas fa-fw fa-cog"></i>
+      <span>Daily 2PM Server Data</span></a>
+  </li>
+
   <?php if ($admin_status == 'SUPER ADMIN' || $admin_status == 'REGIONAL ADMIN'): ?>
     <li class="nav-item">
       <a class="nav-link" href="<?php echo site_url('admin/Auser_signup'); ?>">
